@@ -10,3 +10,4 @@ blob-report
 autoheal-failures.json
 autoheal-report.html
 *.autoheal-backup
+*.tsbuildinfo
