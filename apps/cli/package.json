@@ -3,11 +3,19 @@
   "version": "0.1.0",
   "type": "module",
   "description": "Agentic Self-Healing E2E Testing CLI for Playwright",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RitualDev-Lab/autoheal-qa.git",
+    "directory": "apps/cli"
+  },
+  "keywords": ["playwright", "testing", "self-healing", "e2e", "qa", "ai", "ollama", "automation"],
   "bin": {
     "autoheal": "./dist/index.js"
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "files": ["dist"],
   "scripts": {
     "build": "tsc",
     "clean": "tsc --clean"

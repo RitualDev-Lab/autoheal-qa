@@ -3,6 +3,13 @@
   "version": "0.1.0",
   "type": "module",
   "description": "Core error parsing and failure models for AutoHeal-QA",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RitualDev-Lab/autoheal-qa.git",
+    "directory": "packages/core"
+  },
+  "files": ["dist"],
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
