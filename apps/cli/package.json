@@ -1,0 +1,23 @@
+{
+  "name": "autoheal",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Agentic Self-Healing E2E Testing CLI for Playwright",
+  "bin": {
+    "autoheal": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "tsc --clean"
+  },
+  "dependencies": {
+    "@autoheal/core": "workspace:*",
+    "@autoheal/interceptor": "workspace:*",
+    "@autoheal/ai": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "@autoheal/interceptor",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Playwright test runner reporter and fixture interceptor for AutoHeal-QA",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "tsc --clean"
+  },
+  "dependencies": {
+    "@autoheal/core": "workspace:*"
+  },
+  "peerDependencies": {
+    "@playwright/test": ">=1.40.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.0",
+    "typescript": "^5.8.2"
+  }
+}

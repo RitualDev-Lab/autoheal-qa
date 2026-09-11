@@ -1,0 +1,28 @@
+{
+  "name": "autoheal-qa-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Agentic Self-Healing E2E Testing Runner for Playwright",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "tsc -b --clean",
+    "typecheck": "tsc -b",
+    "lint": "biome lint .",
+    "format": "biome format --write .",
+    "format:check": "biome format .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "demo": "pnpm --filter autoheal-demo-app test:heal"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@playwright/test": "^1.50.0",
+    "@types/node": "^22.13.0",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.7"
+  }
+}

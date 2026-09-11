@@ -1,0 +1,13 @@
+{
+  "name": "autoheal-demo-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:heal": "autoheal test --heal"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.51.0"
+  }
+}
