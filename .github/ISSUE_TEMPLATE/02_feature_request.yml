@@ -1,0 +1,30 @@
+name: ? Feature Request
+description: Suggest an enhancement, new healing heuristic, or locator strategy for AutoHeal-QA
+title: "[Feature]: <Brief summary of request>"
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea to make self-healing smarter, faster, or support additional test runners? Share it with us!
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or Testing Friction
+      placeholder: What UI testing challenge or flaky locator scenario needs improvement?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution / Feature
+      placeholder: Describe how AutoHeal-QA should handle this scenario.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      placeholder: How do other tools (Mabl, Testim, Healenium) or manual fixes handle this?
+    validations:
+      required: false

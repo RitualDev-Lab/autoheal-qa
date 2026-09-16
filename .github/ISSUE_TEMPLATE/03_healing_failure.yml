@@ -1,0 +1,47 @@
+name: ?? Locator Healing Failure or False Positive
+description: Report a broken Playwright locator that AutoHeal failed to heal or healed to the wrong element
+title: "[Healing Issue]: <Broken locator snippet>"
+labels: ["heuristics", "bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### ?? Locator Edge Case Report
+        Help us train and tune AutoHeal heuristics by submitting real-world DOM structure variations that failed to heal properly.
+  - type: textarea
+    id: original_locator
+    attributes:
+      label: Original Broken Locator
+      placeholder: e.g. page.locator("button.btn-submit-primary")
+    validations:
+      required: true
+  - type: textarea
+    id: dom_snippet
+    attributes:
+      label: Target Element HTML / DOM Snippet
+      placeholder: |
+        <!-- The new HTML of the button on the page -->
+        <button type="submit" class="cta-primary-btn" data-testid="auth-submit">
+          Continue
+        </button>
+      render: html
+    validations:
+      required: true
+  - type: dropdown
+    id: failure_mode
+    attributes:
+      label: What Happened?
+      options:
+        - No candidate locator was found (Healing timed out)
+        - Healed to the WRONG element (False Positive)
+        - Suggested locator threw a Playwright syntax error
+        - Verification loop rejected the patch
+    validations:
+      required: true
+  - type: textarea
+    id: expected_locator
+    attributes:
+      label: What would the optimal Playwright locator be?
+      placeholder: e.g. page.getByRole("button", { name: "Continue" })
+    validations:
+      required: false
