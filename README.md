@@ -1,15 +1,30 @@
-# 🔮 AutoHeal-QA (Healwright)
+<div align="center">
 
-> **The 100% Free, Open-Source Agentic Self-Healing E2E Test Runner for Playwright.**  
-> Stop manually fixing broken locators after every UI update. Heal your test suite with **$0 Cloud Cost**.
+# 🔮 AutoHeal-QA
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
-[![Cost: $0](https://img.shields.io/badge/Running_Cost-$0_Free-success.svg?style=for-the-badge)](#zero-cost-architecture)
-[![Playwright](https://img.shields.io/badge/Playwright-1.50+-2EAD33.svg?style=for-the-badge&logo=playwright&logoColor=white)](https://playwright.dev)
+### 100% Free, Open-Source Self-Healing E2E Test Runner for Playwright
+**Stop manually fixing broken locators after every UI redesign. Heal your Playwright test suites locally with $0 cloud cost.**
+
+[![CI Workflow](https://github.com/RitualDev-Lab/autoheal-qa/actions/workflows/ci.yml/badge.svg)](https://github.com/RitualDev-Lab/autoheal-qa/actions)
+[![Running Cost: $0](https://img.shields.io/badge/Running_Cost-$0_Free-success.svg?style=for-the-badge)](https://github.com/RitualDev-Lab/autoheal-qa)
+[![Playwright: 1.50+](https://img.shields.io/badge/Playwright-1.50+-2EAD33.svg?style=for-the-badge&logo=playwright&logoColor=white)](https://playwright.dev)
 [![Local AI: Ollama](https://img.shields.io/badge/Local_AI-Ollama-black.svg?style=for-the-badge&logo=ollama&logoColor=white)](https://ollama.ai)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![TypeScript: 5.8](https://img.shields.io/badge/TypeScript-5.8-3178C6.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge)](https://github.com/RitualDev-Lab/autoheal-qa/pulls)
+[![Featured on DevShelf](https://img.shields.io/badge/Featured%20on-DevShelf-7928CA?style=for-the-badge&logo=googlechrome&logoColor=white)](https://ritualdev-lab.github.io/DevShelf/)
+
+<p align="center">
+  <a href="#-quick-start"><b>⚡ Quick Start</b></a> •
+  <a href="#-comparison-autoheal-qa-vs-commercial-tools"><b>⚖️ Why AutoHeal-QA</b></a> •
+  <a href="#-architecture--how-it-works"><b>🏗️ Architecture</b></a> •
+  <a href="#-usage-guide"><b>📖 Usage Guide</b></a> •
+  <a href="https://ritualdev-lab.github.io/DevShelf/"><b>📚 DevShelf Ecosystem</b></a>
+</p>
 
 ---
+
+</div>
 
 ## ⚡ Why AutoHeal-QA?
 
