@@ -20,7 +20,7 @@ If you discover a security vulnerability (such as sensitive DOM credential leaka
    - Navigate to the **[Security tab](https://github.com/RitualDev-Lab/autoheal-qa/security)** on GitHub.
    - Click **"Report a vulnerability"** to submit a private report to project maintainers.
 3. **Alternative Direct Contact**:
-   - Email our maintainers directly at: **`security@ritualdev.com`**
+   - Email our maintainers directly at: **`security@ritualdev.in`**
    - Please provide:
      - Description of the vulnerability.
      - Playwright version, OS, and reproduction `.spec.ts` test case.
