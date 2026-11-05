@@ -1,10 +1,10 @@
-import { describe, it, expect } from "vitest";
+import { describe, expect, it } from "vitest";
+import { pruneHtml } from "../packages/core/src/snapshot/dom-pruner.js";
 import {
   extractElementsFromHtml,
   generateCandidateLocators,
   mergeCandidates,
 } from "../packages/core/src/snapshot/element-extractor.js";
-import { pruneHtml } from "../packages/core/src/snapshot/dom-pruner.js";
 
 describe("Phase 2 — Interactive Element Extractor & Candidate Generator (@autoheal/core)", () => {
   it("generates prioritized candidate locators for an element", () => {

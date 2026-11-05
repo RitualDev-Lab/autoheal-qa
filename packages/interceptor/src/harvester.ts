@@ -1,4 +1,3 @@
-import type { Page } from "@playwright/test";
 import {
   type HarvestedSnapshot,
   extractElementsFromHtml,
@@ -7,6 +6,7 @@ import {
   normalizeAXNode,
   pruneHtml,
 } from "@autoheal/core";
+import type { Page } from "@playwright/test";
 
 /**
  * Safely harvests a pruned semantic snapshot and accessibility tree from a live Playwright page.
