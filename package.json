@@ -4,6 +4,17 @@
   "private": true,
   "type": "module",
   "description": "Agentic Self-Healing E2E Testing Runner for Playwright",
+  "keywords": [
+    "playwright",
+    "e2e-testing",
+    "self-healing",
+    "ai-testing",
+    "test-automation",
+    "flaky-tests",
+    "locator-recovery",
+    "qa-engineering",
+    "test-runner"
+  ],
   "packageManager": "pnpm@9.15.4",
   "engines": {
     "node": ">=20.0.0"

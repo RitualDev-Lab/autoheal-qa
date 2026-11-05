@@ -9,6 +9,7 @@
 [![Running Cost: $0](https://img.shields.io/badge/Running_Cost-$0_Free-success.svg?style=for-the-badge)](https://github.com/RitualDev-Lab/autoheal-qa)
 [![Playwright: 1.50+](https://img.shields.io/badge/Playwright-1.50+-2EAD33.svg?style=for-the-badge&logo=playwright&logoColor=white)](https://playwright.dev)
 [![Local AI: Ollama](https://img.shields.io/badge/Local_AI-Ollama-black.svg?style=for-the-badge&logo=ollama&logoColor=white)](https://ollama.ai)
+[![Node Version](https://img.shields.io/badge/Node-%3E%3D20.0.0-informational?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
 [![TypeScript: 5.8](https://img.shields.io/badge/TypeScript-5.8-3178C6.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge)](https://github.com/RitualDev-Lab/autoheal-qa/pulls)
