@@ -1,4 +1,4 @@
-import { describe, it, expect } from "vitest";
+import { describe, expect, it } from "vitest";
 import { pruneHtml } from "../packages/core/src/snapshot/dom-pruner.js";
 
 describe("Phase 2 — HTML DOM Pruner (@autoheal/core)", () => {

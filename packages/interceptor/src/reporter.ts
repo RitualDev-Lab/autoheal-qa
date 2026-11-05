@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import type { FullResult, Reporter, TestCase, TestResult } from "@playwright/test/reporter";
 import { type FailureContext, parsePlaywrightError } from "@autoheal/core";
+import type { FullResult, Reporter, TestCase, TestResult } from "@playwright/test/reporter";
 
 export interface AutoHealReporterOptions {
   outputFile?: string;

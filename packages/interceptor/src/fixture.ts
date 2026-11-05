@@ -1,5 +1,5 @@
-import { test as base, type Page } from "@playwright/test";
 import type { HarvestedSnapshot } from "@autoheal/core";
+import { type Page, test as base } from "@playwright/test";
 import { harvestPageSnapshot } from "./harvester.js";
 
 export interface AutoHealFixture {
