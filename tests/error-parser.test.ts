@@ -5,7 +5,7 @@ import {
   parsePlaywrightError,
 } from "../packages/core/src/error-parser.js";
 
-describe("Phase 1 — Playwright Error Parser (@autoheal/core)", () => {
+describe("Phase 1 — Playwright Error Parser (@ritualdev-lab/autoheal-core)", () => {
   it("classifies failure types accurately", () => {
     expect(classifyFailureType("locator.click: Timeout 5000ms waiting for locator('#btn')")).toBe(
       "TIMEOUT",

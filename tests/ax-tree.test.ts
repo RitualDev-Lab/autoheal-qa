@@ -4,7 +4,7 @@ import {
   normalizeAXNode,
 } from "../packages/core/src/snapshot/ax-tree.js";
 
-describe("Phase 2 — Accessibility Tree Parser & Normalizer (@autoheal/core)", () => {
+describe("Phase 2 — Accessibility Tree Parser & Normalizer (@ritualdev-lab/autoheal-core)", () => {
   it("normalizes a raw Playwright accessibility tree snapshot", () => {
     const rawSnapshot = {
       role: "WebArea",

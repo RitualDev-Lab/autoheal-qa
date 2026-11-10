@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { pruneHtml } from "../packages/core/src/snapshot/dom-pruner.js";
 
-describe("Phase 2 — HTML DOM Pruner (@autoheal/core)", () => {
+describe("Phase 2 — HTML DOM Pruner (@ritualdev-lab/autoheal-core)", () => {
   it("strips scripts, styles, SVGs, iframes, and comments", () => {
     const rawHtml = `
       <!-- User profile header -->

@@ -5,7 +5,7 @@ import {
   mergeCandidates,
   normalizeAXNode,
   pruneHtml,
-} from "@autoheal/core";
+} from "@ritualdev-lab/autoheal-core";
 import type { Page } from "@playwright/test";
 
 /**

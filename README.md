@@ -83,23 +83,22 @@ flowchart TD
 
 ## 🚀 Quickstart in 30 Seconds
 
-### 1. Clone & Build AutoHeal-QA (Local Monorepo Workspace)
-> **Note:** Unscoped `autoheal` and `@autoheal/*` names on public npm belong to third-party packages. Run AutoHeal-QA directly from source until scoped `@ritualdev-lab/autoheal-qa` packages are published.
+### 1. Install AutoHeal-QA
 ```bash
-git clone https://github.com/RitualDev-Lab/autoheal-qa.git
-cd autoheal-qa
-pnpm install && pnpm build
+pnpm add -D @ritualdev-lab/autoheal @ritualdev-lab/autoheal-interceptor
+# or run from source:
+git clone https://github.com/RitualDev-Lab/autoheal-qa.git && cd autoheal-qa && pnpm install && pnpm build
 ```
 
 ### 2. Configure Playwright Reporter
-Point `playwright.config.ts` to your local workspace interceptor (`./packages/interceptor/dist/index.js`) or `@autoheal/interceptor` inside this monorepo:
+Add `@ritualdev-lab/autoheal-interceptor` to your `playwright.config.ts`:
 ```ts
 import { defineConfig } from "@playwright/test";
 
 export default defineConfig({
   reporter: [
     ["list"],
-    ["@autoheal/interceptor", { outputFile: "autoheal-failures.json" }],
+    ["@ritualdev-lab/autoheal-interceptor", { outputFile: "autoheal-failures.json" }],
   ],
 });
 ```

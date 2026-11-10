@@ -1,5 +1,8 @@
 {
-  "name": "@autoheal/core",
+  "name": "@ritualdev-lab/autoheal-core",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.1.0",
   "type": "module",
   "description": "Core error parsing and failure models for AutoHeal-QA",

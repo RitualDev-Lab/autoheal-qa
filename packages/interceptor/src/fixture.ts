@@ -1,4 +1,4 @@
-import type { HarvestedSnapshot } from "@autoheal/core";
+import type { HarvestedSnapshot } from "@ritualdev-lab/autoheal-core";
 import { type Page, test as base } from "@playwright/test";
 import { harvestPageSnapshot } from "./harvester.js";
 

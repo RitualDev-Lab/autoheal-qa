@@ -1,5 +1,8 @@
 {
-  "name": "@autoheal/interceptor",
+  "name": "@ritualdev-lab/autoheal-interceptor",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.1.0",
   "type": "module",
   "description": "Playwright test runner reporter and fixture interceptor for AutoHeal-QA",
@@ -23,7 +26,7 @@
     "clean": "tsc --clean"
   },
   "dependencies": {
-    "@autoheal/core": "workspace:*"
+    "@ritualdev-lab/autoheal-core": "workspace:*"
   },
   "peerDependencies": {
     "@playwright/test": ">=1.40.0"

@@ -4,7 +4,7 @@ import path from "node:path";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
 import { AutoHealReporter } from "../packages/interceptor/src/reporter.js";
 
-describe("Phase 1 — AutoHeal Reporter Integration (@autoheal/interceptor)", () => {
+describe("Phase 1 — AutoHeal Reporter Integration (@ritualdev-lab/autoheal-interceptor)", () => {
   let tmpDir: string;
   let reportPath: string;
 

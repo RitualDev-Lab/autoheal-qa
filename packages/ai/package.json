@@ -1,5 +1,8 @@
 {
-  "name": "@autoheal/ai",
+  "name": "@ritualdev-lab/autoheal-ai",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.1.0",
   "type": "module",
   "description": "Local AI reasoning engine and Ollama integration for AutoHeal-QA",
@@ -23,7 +26,7 @@
     "clean": "tsc --clean"
   },
   "dependencies": {
-    "@autoheal/core": "workspace:*"
+    "@ritualdev-lab/autoheal-core": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5.8.2"

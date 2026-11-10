@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
-import type { HarvestedFailureContext } from "@autoheal/core";
+import type { HarvestedFailureContext } from "@ritualdev-lab/autoheal-core";
 
 /**
  * Escapes HTML characters to prevent XSS.

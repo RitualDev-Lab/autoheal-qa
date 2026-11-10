@@ -1,5 +1,8 @@
 {
-  "name": "autoheal",
+  "name": "@ritualdev-lab/autoheal",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.1.0",
   "type": "module",
   "description": "Agentic Self-Healing E2E Testing CLI for Playwright",
@@ -21,9 +24,9 @@
     "clean": "tsc --clean"
   },
   "dependencies": {
-    "@autoheal/core": "workspace:*",
-    "@autoheal/interceptor": "workspace:*",
-    "@autoheal/ai": "workspace:*"
+    "@ritualdev-lab/autoheal-core": "workspace:*",
+    "@ritualdev-lab/autoheal-interceptor": "workspace:*",
+    "@ritualdev-lab/autoheal-ai": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5.8.2"

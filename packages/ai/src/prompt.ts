@@ -1,4 +1,4 @@
-import type { CandidateElement, FailureType, TargetAction } from "@autoheal/core";
+import type { CandidateElement, FailureType, TargetAction } from "@ritualdev-lab/autoheal-core";
 
 export interface BuildPromptParams {
   brokenLocator: string;

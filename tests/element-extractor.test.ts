@@ -6,7 +6,7 @@ import {
   mergeCandidates,
 } from "../packages/core/src/snapshot/element-extractor.js";
 
-describe("Phase 2 — Interactive Element Extractor & Candidate Generator (@autoheal/core)", () => {
+describe("Phase 2 — Interactive Element Extractor & Candidate Generator (@ritualdev-lab/autoheal-core)", () => {
   it("generates prioritized candidate locators for an element", () => {
     const locators = generateCandidateLocators({
       id: "elem-1",

@@ -1,4 +1,4 @@
-import { type HarvestedFailureContext, HeuristicEngine } from "@autoheal/core";
+import { type HarvestedFailureContext, HeuristicEngine } from "@ritualdev-lab/autoheal-core";
 import { DEFAULT_OLLAMA_ENDPOINT, generateOllamaCompletion, isOllamaAvailable } from "./ollama.js";
 import { parseAIHealingResponse } from "./parser.js";
 import { buildHealingPrompt } from "./prompt.js";

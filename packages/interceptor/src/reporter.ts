@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import { type FailureContext, parsePlaywrightError } from "@autoheal/core";
+import { type FailureContext, parsePlaywrightError } from "@ritualdev-lab/autoheal-core";
 import type { FullResult, Reporter, TestCase, TestResult } from "@playwright/test/reporter";
 
 export interface AutoHealReporterOptions {

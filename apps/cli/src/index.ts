@@ -4,9 +4,13 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
 import readline from "node:readline/promises";
-import { HealingOrchestrator } from "@autoheal/ai";
-import { type HarvestedFailureContext, Patcher, VerificationLoop } from "@autoheal/core";
-import { saveHtmlReport } from "@autoheal/interceptor";
+import { HealingOrchestrator } from "@ritualdev-lab/autoheal-ai";
+import {
+  type HarvestedFailureContext,
+  Patcher,
+  VerificationLoop,
+} from "@ritualdev-lab/autoheal-core";
+import { saveHtmlReport } from "@ritualdev-lab/autoheal-interceptor";
 
 const VERSION = "0.1.0";
 

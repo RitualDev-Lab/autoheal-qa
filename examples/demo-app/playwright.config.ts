@@ -6,5 +6,8 @@ export default defineConfig({
   use: {
     headless: true,
   },
-  reporter: [["list"], ["@autoheal/interceptor", { outputFile: "autoheal-failures.json" }]],
+  reporter: [
+    ["list"],
+    ["@ritualdev-lab/autoheal-interceptor", { outputFile: "autoheal-failures.json" }],
+  ],
 });
